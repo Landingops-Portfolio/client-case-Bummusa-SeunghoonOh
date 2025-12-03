@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="ko"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>법무사 오승훈 사무소 - 개인파산</title>
+
+  <!-- Remember to include jQuery :) -->
+  <script src="../../../ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="../../../ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="..//pc/js/jquery-partial.js"></script>
+  <script src="..//pc/js/jquery-ellipsis.js"></script>
+  <script src="..//pc/js/swipe.js"></script>
+
+  <link rel="stylesheet" href="../../../ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="../../../ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+  <link rel="stylesheet" href="..//pc/css/03_bankruptcy.css">
+</head>
+<body>
+  <div id="header">
+	  <header class="header">
+  <div class="top-box">
+    <div class="wrap">
+      <a class="logo-icon" href="../main.php">
+        <img src="../../images/header/logo.png" alt="logo">
+      </a>
+  
+      <div class="global">
+        <a href="../free/free_consulting.php">
+          <img src="../../images/header/free-icon.png">
+          1:1 무료 상담신청
+        </a>
+        <a href="../free/free_realtime.php">
+          <img src="../../images/header/realtime-icon.png">
+          실시간 질문답변
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-box">
+    <nav class="menu">
+      <ul class="clearfix">
+        <li class="item item-1">
+          <a href="../intro/intro.html">법무사 사무소 소개</a>
+        </li>
+        <li class="item item-2">
+          <a href="bankruptcy.html">개인파산</a>
+        </li>
+        <li class="item item-3">
+          <a href="../regeneration/regeneration.html">개인회생</a>
+        </li>
+        <li class="item item-4">
+          <a href="../free/free_consulting.php">무료상담</a>
+        </li>
+        <li class="item item-5">
+          <a href="../service/service_notice.php">고객센터</a>
+        </li>
+      </ul>
+
+      <div class="sub-menu">
+        <ul class="clearfix">
+          <li class="sub-item item-1">
+            <a href="../intro/intro.html">인사말</a>
+            <a href="../intro/intro_road.html">오시는 길</a>
+          </li>
+          <li class="sub-item item-2">
+            <a href="bankruptcy.html">개인파산이란?</a>
+            <a href="bankruptcy_step.html">개인파산 절차</a>
+            <a href="bankruptcy_docs.html">필요서류</a>
+          </li>
+          <li class="sub-item item-3">
+            <a href="../regeneration/regeneration.html">개인회생이란?</a>
+            <a href="../regeneration/regeneration_step.html">개인회생 절차</a>
+            <a href="../regeneration/regeneration_docs.html">필요서류</a>
+          </li>
+          <li class="sub-item item-4">
+            <a href="../free/free_consulting.php">1:1 무료상담</a>
+            <a href="../free/free_realtime.php">실시간 질문 답변</a>
+          </li>
+          <li class="sub-item item-5">
+            <a href="../service/service_notice.php">공지사항</a>
+            <a href="../service/service_success.php">성공사례</a>
+            <a href="../service/reference.php">자료실</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>  </div>
+
+  <div class="page">
+    <div class="main-img">
+      <h1>개인파산</h1>
+    </div>
+    
+    <div class="tabs-wrap">
+      <ul class="clearfix">
+        <li class="tab">
+          <a href="bankruptcy.html">개인파산이란?</a>
+        </li>
+        <li class="tab">
+          <a href="bankruptcy_step.html">개인파산 절차</a>
+        </li>
+        <li class="tab active">
+          <a href="bankruptcy_docs.html">필요서류</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1 class="title">필요서류</h1>
+
+      <table class="docs-table">
+        <colgroup>
+          <col width="146px">
+          <col width="853px">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>발급기관</th>
+            <th>서류 및 발급방법</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="5">구청 / 주민센터</th>
+            <td><span class="gold">가족관계증명서, 혼인관계증명서, 주민등록표 등본·원초본</span></td>
+          </tr>
+          <tr>
+            <td><span class="gold">지방세 세목별 과세증명서</span>(과거 5년간, 배우자도 별도 발급) / 모든 지역을  통합하여 하나의 증명서류로 발급이 가능.</td>
+          </tr>
+          <tr>
+            <td><span class="gold">차량등록원부</span>(배우자 소유 자동차도 발급)</td>
+          </tr>
+          <tr>
+            <td><span class="gold">개인별토지소유현황</span> 또는 개인별토지미등록자현황  / 구청 토지정보과(지적과)에 직접 방문하여 발급해야 함.</td>
+          </tr>
+          <tr>
+            <td><span class="gold">인감증명서</span>(채권자수+2통), <span class="gold">인감도장, 출입국사실증명</span>(과거 10년간)</td>
+          </tr>
+          <tr>
+            <th>은행</th>
+            <td><span class="gold">통장거래내역서</span> -과거 5년간 통장입출금 거래내역서</td>
+          </tr>
+          <tr>
+            <th rowspan="2">
+              <p>국민건강</p>
+              <p>/ 국민연금</p>
+              <p>관리공단</p>
+            </th>
+            <td><span class="gold">국민 연금산정용 가입내역 확인서</span>(국번없이1355) fax 053)753-2522</td>
+          </tr>
+          <tr>
+            <td><span class="gold">건강보험자격득실확인서,</span> 건강보험료 미납증명서,(1577-1000)  fax 053)753-2522)</td>
+          </tr>
+          <tr>
+            <th rowspan="2">보험회사</th>
+            <td><span class="gold">생존자 보험가입내역 조회</span> -생명보험협회(http://www.klia.or.kr),(공인인증서 필요)</td>
+          </tr>
+          <tr>
+            <td><span class="gold">예상해약환급금내역</span>  -예상해약환급금 내역서는 각 보험사 콜센터에서 개별적으로 발급함. </td>
+          </tr>
+          <tr>
+            <th>법원(해당자만)</th>
+            <td>
+              <p>배당표, 사건별 수불내역서, 공탁금 출급증명서 등</p>
+              <p>-채무자의 부동산 등 재산이 3년이내 경매로 처분된 경우 발급.</p>
+              <p>-현재 경매절차가 진행 중이라도 절차진행에 따라 발급이 가능함.</p>
+            </td>
+          </tr>
+          <tr>
+            <th>급여소득자</th>
+            <td><span class="gold">재직증명서, 급여명세서</span>(12개월), <span class="gold">근로소득세원천징수영수증</span>(3년간), 예상퇴직금증명서</td>
+          </tr>
+          <tr>
+            <th>영업소득자</th>
+            <td>
+              <p>-<span class="gold">사업자등록증사본, 체납사실증명, 소득금액증명</span>(사실증명서), <span class="gold">부가가치세 과세표준증명,  종합소득세확정신고서,</span></p>
+              <p><span class="gold">사업장내외부사진</span>(4장이상), <span class="gold">영업용설비/비품/재고품 내역 및 시가액</span></p>
+            </td>
+          </tr>
+          <tr>
+            <th>기타</th>
+            <td><span class="gold">임대차계약서</span>(주거지, 사업장), 무상거주증명원(신분증사본 첨부), <span class="gold">진술서</span>(채무증대 경위), 신분증 사본, 진단서</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="footer">
+<footer class="footer">
+  <div class="wrap">
+    <a class="logo-icon" href="01_main.html">
+      <img src="../../images/header/logo.png" alt="logo">
+    </a>
+
+    <div class="desc-wrap">
+      <p class="desc">대구 수성구 동대구로 359, 2층 202호(범어동, 대구법원앞)<span class="dash">|</span><a href="../modal/agreement.html" rel="modal:open">개인정보취급방침</a></p>
+      <p class="desc">대표자 오승훈<span class="dash">|</span>사업자등록번호 638-35-00262<span class="dash">|</span>TEL 053 753 2527<span class="dash">|</span>FAX  053 753 2522</p>
+      <p class="desc">COPYRIGHT ⓒ 법무사 오승훈 사무소. ALL RIGHT RESERVED</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+	    $.modal.defaults = {
+      closeExisting: false,    // Close existing modals. Set this to false if you need to stack multiple modal instances.
+      escapeClose: true,      // Allows the user to close the modal by pressing `ESC`
+      clickClose: true,       // Allows the user to close the modal by clicking the overlay
+      closeText: '',     // Text content for the close <a> tag.
+      closeClass: 'icon-remove',         // Add additional class(es) to the close <a> tag.
+      showClose: true,        // Shows a (X) icon/link in the top-right corner
+      modalClass: "modal",    // CSS class added to the element being displayed in the modal.
+      blockerClass: "jquery-modal",  // CSS class added to the overlay (blocker).
+
+      // HTML appended to the default spinner during AJAX requests.
+      spinnerHtml: '',
+
+      showSpinner: false,      // Enable/disable the default spinner during AJAX requests.
+      fadeDuration: null,     // Number of milliseconds the fade transition takes (null means no transition)
+      fadeDelay: 1.0          // Point during the overlay's fade-in that the modal begins to fade in (.5 = 50%, 1.5 = 150%, etc.)
+    };
+    
+	    $('.notice-desc').ellipsis({
+      lines: 3,             // force ellipsis after a certain number of lines. Default is 'auto'
+      ellipClass: 'ellip',  // class used for ellipsis wrapper and to namespace ellip line
+      responsive: false      // set to true if you want ellipsis to update on window resize. Default is false
+    });
+  </script>  </div>
+
+
+</body></html>
